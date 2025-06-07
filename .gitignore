@@ -1,0 +1,44 @@
+# hugo build outputs
+/public/
+/resources/_gen/
+
+# dependencies
+node_modules/
+package-lock.json
+
+# dev stuff
+.hugo_build.lock
+
+# os junk
+.DS_Store
+Thumbs.db
+
+# editor cruft
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# logs
+*.log
+npm-debug.log*
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# temp
+tmp/
+temp/
+.DS_Store
+node_modules
+dist
+tmp
+/public/
+/resources/_gen/
+
+hugo.exe
+hugo.linux
+hugo.darwin
